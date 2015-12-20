@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.warnita.tifani.chessboard.BoardFragment">
+
+    <GridLayout
+        android:id="@+id/chess_board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:rowCount="10"
+        android:columnCount="10"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:columnOrderPreserved="false">
+    </GridLayout>
+
+</FrameLayout>
